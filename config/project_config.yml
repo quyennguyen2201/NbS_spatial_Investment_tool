@@ -1,0 +1,28 @@
+# config/project_config.yaml
+
+project_name: STRAND2
+
+# Bucket config (non-secret)
+bucket_env: STRAND_BUCKET
+bucket_fallback: STRAND2
+
+# Optional override. If blank/omitted, prefix is derived from git repo name.
+root_prefix: ""
+
+# Standard data lake layout under each project
+paths:
+  inputs:
+    raw: inputs/raw
+    processed: inputs/processed
+  outputs:
+    raw: outputs/raw
+
+# Versioning convention
+versioning:
+  mode: run_id   # run_id | snapshot_date | vN
+
+# Local settings (optional)
+local:
+  cache_dir: .cache/strand
+
+params:

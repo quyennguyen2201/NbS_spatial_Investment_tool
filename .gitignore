@@ -1,0 +1,111 @@
+# ----------------------
+
+# Python
+
+# ----------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# ----------------------
+
+# Environment Variables / Secrets
+
+# ----------------------
+
+.env
+.env.*
+*.env
+
+# ----------------------
+
+# Jupyter
+
+# ----------------------
+
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ----------------------
+
+# Logs
+
+# ----------------------
+
+*.log
+logs/
+*.out
+
+# ----------------------
+
+# OS Files
+
+# ----------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------
+
+# IDE / Editor
+
+# ----------------------
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------
+
+# Build / Packaging
+
+# ----------------------
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+
+# Data (Large Files)
+
+# ----------------------
+
+inputs/raw/
+outputs/large/
+*.parquet
+*.feather
+*.h5
+*.nc
+
+# ----------------------
+
+# Dask
+
+# ----------------------
+
+dask-worker-space/
+
+# ----------------------
+
+# Temporary / Cache
+
+# ----------------------
+
+.cache/
+*.tmp
+*.bak

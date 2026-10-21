@@ -1,0 +1,69 @@
+# Core Data Science
+
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+
+# Visualization
+
+matplotlib
+seaborn
+plotly
+
+# Jupyter
+
+jupyterlab
+notebook
+ipykernel
+
+# Configuration & Environment
+
+pyyaml
+python-dotenv
+
+# S3 / Backblaze B2
+
+boto3
+botocore
+s3fs
+
+# Parallel Computing
+
+dask
+distributed
+dask[dataframe]
+dask[array]
+dask[complete]
+
+# Parquet & Columnar Formats
+
+pyarrow
+fastparquet
+
+# Geospatial - Vector
+
+geopandas
+shapely
+fiona
+pyproj
+rtree
+
+# Geospatial - Raster
+
+rasterio
+rioxarray
+xarray
+netcdf4
+
+# Geospatial - Utilities
+
+mercantile
+contextily
+folium
+
+# Utilities
+
+tqdm
+requests
