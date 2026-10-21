@@ -1,4 +1,4 @@
-# Project Template Repository
+# A NbS Spatial Investment Tool 
 
 This repository provides a **standardised project structure** for research projects.
 
